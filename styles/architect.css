@@ -1,3 +1,4 @@
+/* shared style stert */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .work-sans-font {
@@ -5,3 +6,240 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+/* dark 02 */
+.tex-gray{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28px;
+}
+/* dark 03 */
+.tex-light-gray{
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+/* all tl color and fond size 45 */
+.tl-text{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+
+/* banner background color */
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.disply-flex{
+    display: flex;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 100px;
+}
+/* shared style end */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style-type: none;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.navbar,
+.banner{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* padding: 50px; */
+}
+/* banner related style */
+
+.banner-content{
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 48px;
+}
+ .banner-image {
+     width: 100%;
+ }
+
+ /* main style stert */
+.section-1{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.teams-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.teams-image img{
+    width: 100%;
+
+}
+
+.feathures-content{
+    margin-left: 50px;
+    max-width: 530px;
+}
+
+.quick-list{
+    font-weight: 500;
+    color: #727272;
+}
+.text-color{
+    color: #FF900E;
+}
+
+
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.section-2-image{
+    width: 100%;
+}
+.section-2-content{
+    width: 80%;
+    max-width: 595px;
+}
+.section-2-item{
+    /* background-color: #25da0e; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.blank{
+    width: 1%;
+    height: 80px;
+    background-color: #FF900E;
+    border-radius: 2px;
+}
+.section-header{
+    font-size: 30px;
+   align-items: center;
+   gap: 5px;
+   margin: 0;
+}
+
+ /* some facts section style stert */
+ .some-facts{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .fact{
+    max-width: 241px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 45px 55px 60px 55px;
+ }
+ .fact-name{
+    margin: 0;
+    margin-top: 5px;
+ }
+ .fact-number{
+    margin: 0;
+    margin-top: 5px;
+ }
+ .some-fact-heading{
+    max-width: 542px;
+    margin-left: 100px;
+ }
+
+
+
+ /* main style end */
+/* responsive media qurey */
+@media screen and (max-width:576px) {
+
+
+    .navbar, 
+    .nav-links,
+    .section-1{
+        flex-direction: column;
+        padding: 0px;
+    }
+
+   
+    .Brand-name,
+    .feathures-content,
+    .banner-content,
+    .some-fact-heading{
+        text-align: center;
+         margin: 0 auto;
+    }
+    .feathures-heading{
+        margin-top: 50px;
+    }
+
+    .banner-content {
+        margin-bottom: 50px;
+        }
+    .banner-content h1 {
+        width: 95%;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 48px;
+    }
+
+    .teams-image,
+    .some-facts{
+        width: 100%;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    }
+
+    /* medium responsive device */
+    /* @media screen and (min-width:577px) and (max-width:992px) {
+
+        
+    } */
+    
+
+
+
